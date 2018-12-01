@@ -1,0 +1,63 @@
+/*basic style*/
+
+body {
+    font: normal normal 13px/16px "Calibri", calibri;
+    background: #000000;
+}
+.container titleimg{
+	float: right
+	
+}
+
+img{
+	max-height:100%;
+}
+.PersonalInfoTitle{
+	top:10;
+    padding: 120px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background: pink;
+	font-size: 36px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.PersonalInfo{
+	font-size: 20px;
+	padding: 20px;
+	background:lightblue;
+}
+
+.Schedule{
+	font-size: 18px;
+	padding: 20px;
+	background: lightyellow;
+}
+.NameCard{
+	padding: 10px;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+	background: white;
+	width: 450px;
+	height: 200px;
+}
+
+.container img{
+	float: right
+}
+
+img{
+	max-height:100%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: green;
+  color: #000000;
+}
+table, th, td {
+	padding: 10px;
+    border: 1px blue;
+}
